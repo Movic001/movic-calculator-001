@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(15, 15, 44);
+    color:white;
+    font-size: 22px;
+    font-family: Arial;
+}
+h2{
+    text-align: center;
+}
+.containeBtn{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 420px;
+    margin-left:400px;
+    padding: 10px;
+}
+
+.container{
+    background-color: blue;
+    width: 388px;
+    padding: 15px;
+    border-radius: 19px;
+}
+.equal{
+    width: 130px;
+}
+input{
+    padding: 10px;
+    background-color:white;
+    height: 56px;
+    font-size: 45px;
+    width: 348px;
+}
+input::placeholder{
+    color: rgb(248, 246, 246);
+}
+button{
+    font-weight: bold;
+    font-size: 24px;
+    padding: 8px;
+    margin: 8px;
+    width: 55px;
+    cursor: pointer;
+}
+#offBtn{
+    padding-left: 1px;
+}
+
+@media screen and (max-width:650px) {
+
+    body{
+        font-size: 16px;
+        
+    }
+    .containeBtn{
+        margin-left:1px;
+        padding:8px;
+        width: 255px;
+    }
+    .container{
+        width: 230px;
+        padding: 15px;
+    }
+    input{
+        padding: 10px;
+     
+        height: 30px;
+        font-size: 26px;
+        width: 200px;
+    }
+    button{
+        font-size:14px;
+        margin: 3px;
+        width: 35px;
+        cursor: pointer;
+        margin-left: 2px;
+    }
+    .equal{
+        width: 70px;
+    }
+    h2{
+        text-align: left;
+        margin-left: 10px;
+    }
+}

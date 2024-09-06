@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>movic calculator ptoject</title>
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+    </head>
+    <body>
+        <h2>MOVIC <sub>CALCULATOR</sub></h2>
+        <div class="containeBtn">
+            
+        <div class="container">
+           <input type="number" id="number" name="number" placeholder="0875008090668" disabled>
+            <br>
+            <br>
+            <br>
+            <br>
+           <button id="offBtn" onclick="buttonBtn('off')">OFF</button>
+           <button onclick="buttonBtn('mr')">MR</button>
+           <button onclick="buttonBtn('m+')">M+</button>
+           <button onclick="buttonBtn('m')">M-</button>
+           <button onclick="buttonBtn('divide')">/</button>
+           <br>
+
+           <button onclick="clearBtn()">C</button>
+           <button onclick="buttonBtn('7')">7</button>
+           <button onclick="buttonBtn('8')">8</button>
+           <button onclick="buttonBtn('9')">9</button>
+           <button onclick="buttonBtn('x')">X</button>
+           <br>
+           <button onclick="buttonBtn('%')">%</button>
+           <button onclick="buttonBtn('4')">4</button>
+           <button onclick="buttonBtn('5')">5</button>
+           <button onclick="buttonBtn('6')">6</button>
+           <button onclick="buttonBtn('-')">-</button>
+           <br>
+
+         
+           <button onclick="buttonBtn('/')">\</button>
+           <button onclick="buttonBtn('1')">1</button>
+           <button onclick="buttonBtn('2')">2</button>
+           <button onclick="buttonBtn('3')">3</button>
+           <button onclick="buttonBtn('+')">+</button>
+           <br>
+           <button>+/-</button>
+           <button onclick="buttonBtn('0')">0</button>
+           <button onclick="buttonBtn('.')">.</button>
+           <button class="equal" id="equal" onclick="equalBtn()">=</button>
+          
+           <br>
+        </div>
+        </div>
+        <script src="styles/script.js"></script>
+    </body>
+</html>
